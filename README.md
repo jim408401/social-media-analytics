@@ -31,8 +31,8 @@
 SnowNLP是Courpus-base的情緒分析，不是使用情緒字典，而是使用預訓練的情緒分析模型或演算法，給與整個文章一個情緒分數。<br><br>
 
 ## 文本分析
-+ **以 TFIDF 找出文本內找出重要詞彙：** <br>
-+ **透過 Jieba 斷詞與 N-gram 幫助建立斷詞字典：** <br>
-+ **以 Pearson correlation 計算兩個詞彙間的相關性 ：** <br>
-+ **以 建立 Ngram 預測模型 ：** <br>
++ **以 TFIDF 找出文本內找出重要詞彙** <br>
++ **透過 Jieba 斷詞與 N-gram 幫助建立斷詞字典** <br>
++ **以 Pearson correlation 計算兩個詞彙間的相關性** <br>
++ **以 建立 Ngram 預測模型** <br>
 
