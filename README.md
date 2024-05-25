@@ -65,6 +65,10 @@ Skip-gram：與 CBOW 相反，使用中心詞來預測上下文詞語。例如�
 + **Transformers Embeddings :**<br>
 小模型（BERT）：不同語言的BERT：uncased / chinese / multilingual <br>
 大模型（LLM）：API based、Open Source LLM <br>
++ **Transformers Embeddings 特點**<br>
+上下文相關性（Contextuality）：與靜態詞嵌入不同，Transformers Embeddings 能夠捕捉詞語在不同上下文中的不同語義。
+雙向性（Bidirectionality）：以 BERT 為例，這些模型能夠同時考慮詞語的左邊和右邊的上下文，這樣可以捕捉更多的語義訊息。
+預訓練和微調（Pre-training and Fine-tuning）：Transformers 模型通常會在大規模語料庫上進行預訓練，然後在具體任務上進行微調。這樣可以使模型在特定任務上達到更好的效果。
 + **資料集實作任務** <br>
 使用 embedding 做 NLP 任務、找相似文件（文章）、文件分類任務
 
