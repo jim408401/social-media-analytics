@@ -56,16 +56,19 @@ perplexity : perplexity 也是評估的指標之一，廣泛用於語言模型�
 ## Text Representation
 + **Embeddings** <br>
 在自然語言處理（NLP）和機器學習領域中指的是將高維的稀疏數據（如詞語、句子、文檔等）轉換為低維的密集向量的技術。這些低維向量可以捕捉原始數據的語義信息和結構特徵，使得機器學習模型能夠更有效地處理和理解這些數據。
++ **Encoder & Decoder** <br>
++ Encoder 將輸入序列轉換為一個固定長度的上下文向量（context vector），該向量捕捉輸入序列的語義訊息<br>
++ Decoder 根據Encoder生成的上下文向量，生成輸出序列。<br>
 + **Word2Vec 模型** <br>
 將詞語轉換為向量，並捕捉詞語之間的語義關係
 + **Word2Vec 原理** <br>
 CBOW（Continuous Bag of Words）：使用上下文詞語來預測中心詞。例如，給定上下文詞語 "The sat on the floor" 來預測中心詞 "cat"。 <br>
 Skip-gram：與 CBOW 相反，使用中心詞來預測上下文詞語。例如，給定中心詞 "cat" 來預測上下文詞語 "The", "sat", "on", "the", "floor"。 <br>
 訓練 Word2Vec 模型、使用別人訓練好的 Word2Vec 模型
-+ **Transformers Embeddings**<br>
++ **Transformers Embeddings** <br>
 小模型（BERT）：不同語言的BERT：uncased / chinese / multilingual <br>
 大模型（LLM）：API based、Open Source LLM <br>
-+ **Transformers Embeddings 特點**<br>
++ **Transformers Embeddings 特點** <br>
 Self-Attention：自注意力機制允許模型在計算每個詞的嵌入時，關注序列中的其他詞，從而捕捉長距離依賴關係。<br>
 Multi-Head Attention，能夠同時捕捉不同子空間中的訊息，增強模型的表示能力。<br>
 + **資料集實作任務** <br>
