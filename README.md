@@ -41,6 +41,8 @@ SnowNLP是Courpus-base的情緒分析，不是使用情緒字典，而是使用�
 
 ## 文件分類
 + **使用文章轉 DTM(document term matrix)的方式，將文章用不同的字詞分布表示，再利用 sklearn 套件，套用 Decision Tree、Logistic Regression、SVM、Random Forest 等訓練模型，分辨不同的文件** <br>
++ **使用 Cross-Validation 評估模型的性能，選出最好的模型** <br>
+
 
 
 
