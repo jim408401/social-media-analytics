@@ -2,7 +2,7 @@
 
 ## 專案說明：
 + **對 ptt 股市版面關鍵字為「台積電」的文章進行文本分析、情緒分析** <br>
-+ **將新聞網的版別的文章組合起來，使用 Decision Tree、Logistic Regression、SVM、Random Forest等方式訓練模型，使模型能夠預測新聞版別，再用分類模型進行文件的版別分類** <br>
++ **將新聞網的版別的文章組合起來，使用 Decision Tree、Logistic Regression、SVM、Random Forest 等方式訓練模型，使模型能夠預測新聞版別，再用分類模型進行文件的版別分類** <br>
 
 ## 套件說明：
 - Jieba : 中文斷詞套件
