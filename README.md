@@ -73,6 +73,8 @@ Self-Attention：自注意力機制允許模型在計算每個詞的嵌入時，
 Multi-Head Attention，能夠同時捕捉不同子空間中的訊息，增強模型的表示能力。<br>
 + **資料集實作任務** <br>
 使用 embedding 做 NLP 任務、找相似文件（文章）、文件分類任務
+找相似文件（文章)：計算目標文章的 embedding 與所有文章的 embedding 之間的 Cosine Similarity
+文件分類任務：
 
 
 
