@@ -78,6 +78,12 @@ Multi-Head Attention，能夠同時捕捉不同子空間中的訊息，增強模
 
 ## BERT (Encoder-only-model)
 BERT 相關下游任務的程式碼應用，使用 BERT 相關資源（例如網路上別人訓練好的 BERT 模型）來達成 Token classification、Sequence classification 以及 Text Clustering 等等相關文字處理任務
++ **BERT 的特點** <br>
+雙向性（Bidirectionality）：BERT 使用雙向 Transformer 進行預訓練，這意味著它同時考慮了一個詞的左邊和右邊的上下文。在傳統的單向模型中，模型只能從左到右（或從右到左）進行預測，而 BERT 可以同時考慮到兩邊的上下文信息，從而更好地捕捉詞語的語義信息。<br>
+預訓練和微調（Pre-training and Fine-tuning）：BERT 首先在大規模文本語料上進行預訓練，然後在特定任務上進行微調。預訓練過程包括兩個任務：遮罩語言模型（Masked Language Model, MLM）和下一句預測（Next Sentence Prediction, NSP）。<br>
+遮罩語言模型（MLM）：在預訓練過程中，BERT 隨機遮罩掉輸入文本中的一些單詞，然後要求模型預測這些被遮罩的單詞。<br>
+下一句預測（NSP）：BERT 接收成對的句子，並預測第二個句子是否是第一個句子的下一句。<br>
+多任務學習（Multi-task Learning）：BERT 可以應用於多種 NLP 任務，如文本分類、命名實體識別（NER）、問答系統、文本生成等。通過微調，BERT 在這些任務中都能取得優異的效果。
 
 
 
