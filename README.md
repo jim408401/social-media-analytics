@@ -54,6 +54,9 @@ perplexity : perplexity 也是評估的指標之一，廣泛用於語言模型�
 
 ## Text Representation
 + **Word2Vec 模型，將詞語轉換為向量，並捕捉詞語之間的語義關係** <br>
++ **Word2Vec 原理** <br>
+CBOW（Continuous Bag of Words）：使用上下文詞語來預測中心詞。例如，給定上下文詞語 "The cat sits on the" 來預測中心詞 "mat"。 <br>
+Skip-gram：與 CBOW 相反，使用中心詞來預測上下文詞語。例如，給定中心詞 "cat" 來預測上下文詞語 "The", "sits", "on", "the"。 <br>
 訓練 Word2Vec 模型、使用別人訓練好的 Word2Vec 模型
 + **Transformers Embeddings :**<br>
 小模型（BERT）：不同語言的BERT：uncased / chinese / multilingual <br>
