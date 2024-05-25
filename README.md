@@ -4,6 +4,7 @@
 + **對 ptt 股市版面關鍵字為「台積電」的文章進行文本分析、情緒分析** <br>
 + **將新聞網的版別的文章組合起來，使用 Decision Tree、Logistic Regression、SVM、Random Forest 等方式訓練模型，使用 Cross-Validation 、F1-Score 評估模型的性能，選出 best model，使模型能夠預測新聞版別，再用分類模型進行文件的版別分類** <br>
 + **利用主題模型，從大量文本數據中提取和理解隱藏的主題** <br>
++ **訓練 Word2Vec 模型** <br>
 
 ## 套件說明：
 - Jieba : 中文斷詞套件
