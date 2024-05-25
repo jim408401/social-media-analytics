@@ -59,7 +59,7 @@ perplexity : perplexity 也是評估的指標之一，廣泛用於語言模型�
 小模型（BERT）：不同語言的BERT：uncased / chinese / multilingual <br>
 大模型（LLM）：API based、Open Source LLM <br>
 + **資料集實作任務** <br>
-使用embedding 做 NLP 任務、找相似文件（文章）、文件分類任務
+使用 embedding 做 NLP 任務、找相似文件（文章）、文件分類任務
 
 
 
