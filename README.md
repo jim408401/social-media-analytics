@@ -4,10 +4,12 @@
 ## 套件說明：
 - Jieba : 中文斷詞套件
 - wordcloud : 文字雲繪圖工具
-- CKIP : 全名為 Chinese Knowledge and Information Processing，中研院開發的中文自然語言處理工具。
-- SnowNLP : SnowNLP是一個可以方便的處理中文文本內容的python類庫，主要功能包括斷詞、詞性標註、情緒分析、漢字轉拼音、繁體轉簡體、關鍵詞提取以及文本摘要等等。
-- NLTK: 全名為Natural Language Tool Kit，自然語言處理工具。
-- CountVectorizer, TfidfTransformer: sklearn中計算詞頻與tf-idf的套件。
+- CKIP : 全名為 Chinese Knowledge and Information Processing，中研院開發的中文自然語言處理工具
+- SnowNLP : SnowNLP是一個可以方便的處理中文文本內容的python類庫，主要功能包括斷詞、詞性標註、情緒分析、漢字轉拼音、繁體轉簡體、關鍵詞提取以及文本摘要等等
+- NLTK : 全名為Natural Language Tool Kit，自然語言處理工具
+- CountVectorizer, TfidfTransformer : sklearn 中計算詞頻與 tf-idf 的套件
+- networkx : 網絡圖建構、繪製工具
+- numpy.linalg : 矩陣與向量運算套件
 
 ## 文字處理基本流程
 + **資料初步清理：** <br>
