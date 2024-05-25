@@ -62,7 +62,7 @@ perplexity : perplexity 也是評估的指標之一，廣泛用於語言模型�
 CBOW（Continuous Bag of Words）：使用上下文詞語來預測中心詞。例如，給定上下文詞語 "The sat on the floor" 來預測中心詞 "cat"。 <br>
 Skip-gram：與 CBOW 相反，使用中心詞來預測上下文詞語。例如，給定中心詞 "cat" 來預測上下文詞語 "The", "sat", "on", "the", "floor"。 <br>
 訓練 Word2Vec 模型、使用別人訓練好的 Word2Vec 模型
-+ **Transformers Embeddings :**<br>
++ **Transformers Embeddings**<br>
 小模型（BERT）：不同語言的BERT：uncased / chinese / multilingual <br>
 大模型（LLM）：API based、Open Source LLM <br>
 + **Transformers Embeddings 特點**<br>
