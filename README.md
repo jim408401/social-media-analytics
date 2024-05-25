@@ -1,9 +1,8 @@
 # Social-Media-Analytics
 
 ## 專案說明：
-對 ptt 股市版面關鍵字為「台積電」的文章進行文本分析、情緒分析
-
-使用 Decision Tree、Logistic Regression、SVM、Random Forest等方式訓練模型，以分辨不同的文件
++ **對 ptt 股市版面關鍵字為「台積電」的文章進行文本分析、情緒分析** <br>
++ **使用 Decision Tree、Logistic Regression、SVM、Random Forest等方式訓練模型，以分辨不同的文件** <br>
 
 ## 套件說明：
 - Jieba : 中文斷詞套件
