@@ -53,8 +53,8 @@ Pointwise Mutual Information (PMI) : 自然語言處理中，想要探討兩個�
 perplexity : perplexity 也是評估的指標之一，廣泛用於語言模型的評估，意思為複雜度，因此數字要越小越好。
 
 ## Text Representation
-+ **訓練 Word2Vec 模型** <br>
-+ **使用別人訓練好的 Word2Vec 模型** <br>
++ **Word2Vec 模型** <br>
+訓練 Word2Vec 模型、使用別人訓練好的 Word2Vec 模型
 + **Transformers Embeddings :**<br>
 小模型（BERT）：不同語言的BERT：uncased / chinese / multilingual <br>
 大模型（LLM）：API based、Open Source LLM <br>
