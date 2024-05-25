@@ -86,6 +86,14 @@ BERT 首先在大規模文本語料上進行預訓練，然後在特定任務上
 + **多任務學習（Multi-task Learning）** <br>
 BERT 可以應用於多種 NLP 任務，如文本分類、命名實體識別（NER）、問答系統、文本生成等。通過微調，BERT 在這些任務中都能取得優異的效果。
 
+## LLM Information Extraction
+使用到 Langchian 套件與 HuggingFace 模型來實作
++ **LLM Inference** <br>
++ **Prompt Engineering** <br>
++ **Information Extraction(Sentiment classification, NER)** <br>
+
+
+
 
 
 
