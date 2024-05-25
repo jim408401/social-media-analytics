@@ -36,3 +36,9 @@ SnowNLP是Courpus-base的情緒分析，不是使用情緒字典，而是使用�
 + **以 Pearson correlation 計算兩個詞彙間的相關性** <br>
 + **以 建立 Ngram 預測模型** <br>
 
+## 文件分類
++ **使用文章轉 DTM(document term matrix)的方式，將文章用不同的字詞分布表示，再利用 sklearn 套件，套用決策樹、logistic regression 等方式訓練模型，以分辨不同的文件** <br>
+
+
+
+
