@@ -72,8 +72,8 @@ Skip-gram：與 CBOW 相反，使用中心詞來預測上下文詞語。例如�
 Self-Attention：自注意力機制允許模型在計算每個詞的嵌入時，關注序列中的其他詞，從而捕捉長距離依賴關係。<br>
 Multi-Head Attention，能夠同時捕捉不同子空間中的訊息，增強模型的表示能力。<br>
 + **資料集實作任務** <br>
-使用 embedding 做 NLP 任務、找相似文件（文章）、文件分類任務
-找相似文件（文章)：計算目標文章的 embedding 與所有文章的 embedding 之間的 Cosine Similarity
+使用 embedding 做 NLP 任務、找相似文件（文章）、文件分類任務 <br>
+找相似文件（文章)：計算目標文章的 embedding 與所有文章的 embedding 之間的 Cosine Similarity <br>
 文件分類任務：
 
 
