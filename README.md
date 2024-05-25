@@ -70,7 +70,7 @@ Skip-gram：與 CBOW 相反，使用中心詞來預測上下文詞語。例如�
 大模型（LLM）：API based、Open Source LLM <br>
 + **Transformers Embeddings 特點** <br>
 Self-Attention：自注意力機制允許模型在計算每個詞的嵌入時，關注序列中的其他詞，從而捕捉長距離依賴關係。<br>
-Multi-Head Attention，能夠同時捕捉不同子空間中的訊息，增強模型的表示能力。<br>
+Multi-Head Attention：能夠同時捕捉不同子空間中的訊息，增強模型的表示能力。<br>
 + **資料集實作任務** <br>
 使用 embedding 做 NLP 任務、找相似文件（文章）、文件分類任務 <br>
 找相似文件（文章)：計算目標文章的 embedding 與所有文章的 embedding 之間的 Cosine Similarity <br>
@@ -81,8 +81,8 @@ BERT 相關下游任務的程式碼應用，使用 BERT 相關資源（例如網
 + **BERT 的特點** <br>
 雙向性（Bidirectionality）：在傳統的單向模型中，模型只能從左到右（或從右到左）進行預測，而 BERT 可以同時考慮到兩邊的上下文訊息，從而更好地捕捉詞語的語義訊息。<br>
 預訓練和微調（Pre-training and Fine-tuning）：BERT 首先在大規模文本語料上進行預訓練，然後在特定任務上進行微調。預訓練過程包括兩個任務 <br>
-遮罩語言模型（MLM）：在預訓練過程中，BERT 隨機遮罩掉輸入文本中的一些單詞，然後要求模型預測這些被遮罩的單詞。<br>
-下一句預測（NSP）：BERT 接收成對的句子，並預測第二個句子是否是第一個句子的下一句。<br>
++ **遮罩語言模型（MLM）**：在預訓練過程中，BERT 隨機遮罩掉輸入文本中的一些單詞，然後要求模型預測這些被遮罩的單詞。<br>
++ **下一句預測（NSP）**：BERT 接收成對的句子，並預測第二個句子是否是第一個句子的下一句。<br>
 多任務學習（Multi-task Learning）：BERT 可以應用於多種 NLP 任務，如文本分類、命名實體識別（NER）、問答系統、文本生成等。通過微調，BERT 在這些任務中都能取得優異的效果。
 
 
