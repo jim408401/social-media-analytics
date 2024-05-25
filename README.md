@@ -13,6 +13,8 @@
 - CountVectorizer, TfidfTransformer : sklearn 中計算詞頻與 tf-idf 的套件
 - networkx : 網絡圖建構、繪製工具
 - numpy.linalg : 矩陣與向量運算套件
+- gensim: 主題模型函式庫
+- pyLDAvis: 互動式LDA視覺化套件
 
 ## 文字處理基本流程
 + **資料初步清理：** <br>
@@ -43,6 +45,8 @@ SnowNLP是Courpus-base的情緒分析，不是使用情緒字典，而是使用�
 + **使用文章轉 DTM(document term matrix)的方式，將文章用不同的字詞分布表示，再利用 sklearn 套件，套用 Decision Tree、Logistic Regression、SVM、Random Forest 等訓練模型，分辨不同的文件** <br>
 + **使用 Cross-Validation 、F1-Score 評估模型的性能，選出 best model** <br>
 
+## 主題模型
++ **文件主題模型採用非監督式學習的方式，不事先人為做標籤與註解，訓練的資料是從資料文本得來，讓我們可以規模化給予大量文本，而訓練出主題模型，其中最為知名為LDA模型** <br>
 
 
 
