@@ -52,5 +52,12 @@ SnowNLP是Courpus-base的情緒分析，不是使用情緒字典，而是使用�
 Pointwise Mutual Information (PMI) : 自然語言處理中，想要探討兩個字之間是否存在某種關係。例如：某些字會一起出現，可能帶有某些訊息，因此這個可以用 PMI 來計算，數字越大越好。<br>
 perplexity : perplexity 也是評估的指標之一，廣泛用於語言模型的評估，意思為複雜度，因此數字要越小越好。
 
+## Text Representation
++ **訓練 Word2Vec 模型** <br>
++ **使用別人訓練好的 Word2Vec 模型** <br>
++ **Transformers Embeddings : ** <br>
++ **訓練 Word2Vec 模型** <br>
+
+
 
 
