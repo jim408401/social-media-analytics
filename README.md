@@ -57,8 +57,8 @@ perplexity : perplexity 也是評估的指標之一，廣泛用於語言模型�
 + **Embeddings** <br>
 在自然語言處理（NLP）和機器學習領域中指的是將高維的稀疏數據（如詞語、句子、文檔等）轉換為低維的密集向量的技術。這些低維向量可以捕捉原始數據的語義信息和結構特徵，使得機器學習模型能夠更有效地處理和理解這些數據。
 + **Encoder & Decoder** <br>
-+ Encoder 將輸入序列轉換為一個固定長度的上下文向量（context vector），該向量捕捉輸入序列的語義訊息<br>
-+ Decoder 根據Encoder生成的上下文向量，生成輸出序列。<br>
+Encoder 將輸入序列轉換為一個固定長度的上下文向量（context vector），該向量捕捉輸入序列的語義訊息<br>
+Decoder 根據Encoder生成的上下文向量，生成輸出序列。<br>
 + **Word2Vec 模型** <br>
 將詞語轉換為向量，並捕捉詞語之間的語義關係
 + **Word2Vec 原理** <br>
