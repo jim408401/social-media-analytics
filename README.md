@@ -76,6 +76,9 @@ Multi-Head Attention，能夠同時捕捉不同子空間中的訊息，增強模
 找相似文件（文章)：計算目標文章的 embedding 與所有文章的 embedding 之間的 Cosine Similarity <br>
 文件分類任務：使用 bert-base-chinese 模型對新聞資料集做 embeddings，接著訓練分類器
 
++ **資料集實作任務** <br>
+BERT 相關下游任務的程式碼應用，使用 BERT 相關資源（例如網路上別人訓練好的 BERT 模型）來達成 Token classification、Sequence classification 以及 Text Clustering 等等相關文字處理任務
+
 
 
 
