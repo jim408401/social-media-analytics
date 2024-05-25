@@ -55,7 +55,9 @@ perplexity : perplexity 也是評估的指標之一，廣泛用於語言模型�
 ## Text Representation
 + **訓練 Word2Vec 模型** <br>
 + **使用別人訓練好的 Word2Vec 模型** <br>
-+ **Transformers Embeddings : ** <br>
++ **Transformers Embeddings :**<br>
+小模型（BERT）：不同語言的BERT：uncased / chinese / multilingual <br>
+大模型（LLM）：API based、Open Source LLM <br>
 + **訓練 Word2Vec 模型** <br>
 
 
