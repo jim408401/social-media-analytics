@@ -2,7 +2,7 @@
 
 ## 專案說明：對 ptt 股市版面關鍵字為「台積電」的文章進行文本分析、情緒分析
 ## 套件說明：
-- jieba : 中文斷詞套件
+- Jieba : 中文斷詞套件
 - wordcloud : 文字雲繪圖工具
 - CKIP : 全名為 Chinese Knowledge and Information Processing，中研院開發的中文自然語言處理工具。
 - SnowNLP : SnowNLP是一個可以方便的處理中文文本內容的python類庫，主要功能包括斷詞、詞性標註、情緒分析、漢字轉拼音、繁體轉簡體、關鍵詞提取以及文本摘要等等。
@@ -27,3 +27,10 @@
 進行基於情緒字典的情緒分析，首先需要準備情緒字典後再將字典與斷詞後的文章進行合併<br><br>
 + **SnowNLP Courpus-base 情緒分析：** <br>
 SnowNLP是Courpus-base的情緒分析，不是使用情緒字典，而是使用預訓練的情緒分析模型或演算法，給與整個文章一個情緒分數。<br><br>
+
+## 文本分析
++ **以 TFIDF 找出文本內找出重要詞彙：** <br>
++ **透過 Jieba 斷詞與 N-gram 幫助建立斷詞字典：** <br>
++ **以 Pearson correlation 計算兩個詞彙間的相關性 ：** <br>
++ **以 建立 Ngram 預測模型 ：** <br>
+
