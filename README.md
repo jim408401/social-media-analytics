@@ -74,7 +74,7 @@ Multi-Head Attention，能夠同時捕捉不同子空間中的訊息，增強模
 + **資料集實作任務** <br>
 使用 embedding 做 NLP 任務、找相似文件（文章）、文件分類任務 <br>
 找相似文件（文章)：計算目標文章的 embedding 與所有文章的 embedding 之間的 Cosine Similarity <br>
-文件分類任務：
+文件分類任務：使用 bert-base-chinese 模型對新聞資料集做 embeddings，接著訓練分類器
 
 
 
