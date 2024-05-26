@@ -8,6 +8,7 @@
 + **使用 BERT 相關資源（例如網路上別人訓練好的 BERT 模型）來達成 Token classification、Sequence classification 以及 Text Clustering 等等相關文字處理任務** <br>
 + **LLM Information Extraction，使用 Langchian 套件與 HuggingFace 模型來實作LLM Inference、Prompt Engineering、Information Extraction(Sentiment classification, NER）** <br>
 + **使用 RAG 結合 0050 簡式公開說明書，實作問答系統** <br>
++ **使用 pyvis/networkx 套件進行網路圖的繪製實作，並使用資料集繪製出人物關聯圖及實體關係圖** <br>
 
 ## 套件說明：
 - Jieba : 中文斷詞套件
