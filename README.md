@@ -92,7 +92,8 @@ BERT 可以應用於多種 NLP 任務，如文本分類、命名實體識別（N
 + **LLM Inference** <br>
 + **Prompt Engineering** <br>
 + **Information Extraction(Sentiment classification, NER)** <br>
-
++ **RAG (Retrieval-Augmented Generation) 檢索增強生成** <br>
+RAG 模型的基本原理是將檢索和生成兩個步驟結合起來。RAG 模型使用檢索模型從外部知識庫中檢索與用戶查詢相關的信息。然後，RAG 模型使用生成模塊對檢索到的訊息進行處理，生成最終的答案。
 
 
 
