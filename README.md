@@ -17,8 +17,9 @@
 - CountVectorizer, TfidfTransformer : sklearn 中計算詞頻與 tf-idf 的套件
 - networkx : 網絡圖建構、繪製工具
 - numpy.linalg : 矩陣與向量運算套件
-- gensim: 主題模型函式庫
-- pyLDAvis: 互動式LDA視覺化套件
+- gensim : 主題模型函式庫
+- pyLDAvis : 互動式LDA視覺化套件
+- LCEL (LangChain Expression Language) : LCEL 可以讓我們更簡單的開發複雜的 chain 應用，可以支援：Streaming, Parallelism, logging。
 
 ## 文字處理基本流程
 + **資料初步清理：** <br>
