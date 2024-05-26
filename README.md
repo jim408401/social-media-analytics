@@ -92,9 +92,12 @@ BERT 可以應用於多種 NLP 任務，如文本分類、命名實體識別（N
 使用 Langchian 套件與 HuggingFace 模型來實作
 + **LLM Inference** <br>
 + **Prompt Engineering** <br>
+Few-shot、Chain of thought(CoT)、Self-consistency
 + **Information Extraction(Sentiment classification, NER)** <br>
 + **RAG (Retrieval-Augmented Generation) 檢索增強生成** <br>
 RAG 模型的基本原理是將檢索和生成兩個步驟結合起來。RAG 模型使用檢索模型從外部知識庫中檢索與用戶查詢相關的資訊。然後，RAG 模型使用生成模塊對檢索到的資訊進行處理，生成最終的答案。
+Prompt 的設計有很大程度會影響 LLM 的輸出，甚至影響 LLM 整體能力，以下會介紹幾個常用的 prompt 技巧
+
 
 
 
