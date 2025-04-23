@@ -9,14 +9,6 @@
 - Implement LLM-based information extraction (sentiment analysis, NER) with LangChain & HuggingFace and build a RAG Q&A system using prospectus data.
 - Visualize social and entity networks using NetworkX and PyVis.
 
-## Dependencies
-
-- **scikit-learn**: Modeling, cross-validation, vectorization
-- **Gensim & pyLDAvis**: LDA topic modeling and visualization, Word2Vec
-- **transformers & sentence-transformers**: BERT and LLAMA 2 embeddings
-- **LangChain (LCEL)**: Streamlined LLM inference pipelines
-- **NetworkX & PyVis**: Network graph construction and visualization
-
 ## Pipeline & Methods
 
 1. **Preprocessing**: Clean text, tokenize, remove stopwords.
