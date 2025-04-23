@@ -18,8 +18,3 @@
    - **Topic Modeling**: LDA with PMI and perplexity metrics.
 4. **LLM Techniques**: Fine-tune BERT for sequence/token classification; apply prompt engineering (few-shot, CoT).
 5. **RAG System**: Retrieve prospectus passages and generate answers with a generative model.
-
-## Visualization
-
-- **pyLDAvis**: Interactive topic exploration.
-- **NetworkX & PyVis**: Social and entity relationship graphs.
