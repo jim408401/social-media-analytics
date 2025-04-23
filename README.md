@@ -1,6 +1,6 @@
 # Social-Media-Analytics
 
-## Project Description
+## Project Overview
 
 - Analyze PTT Stock posts mentioning “TSMC” and aggregate news articles by section.
 - Train text classifiers (Decision Tree, SVM, Logistic Regression, Random Forest) with cross-validation and F1-score evaluation for news categorization.
