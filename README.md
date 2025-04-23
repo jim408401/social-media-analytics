@@ -11,10 +11,8 @@
 
 ## Pipeline & Methods
 
-1. **Preprocessing**: Clean text, tokenize, remove stopwords.
-2. **Feature Extraction**: TF-IDF, N-grams, dense embeddings.
-3. **Modeling**:
-   - **Classification**: Train and select best model via CV & F1.
-   - **Topic Modeling**: LDA with PMI and perplexity metrics.
-4. **LLM Techniques**: Fine-tune BERT for sequence/token classification; apply prompt engineering (few-shot, CoT).
-5. **RAG System**: Retrieve prospectus passages and generate answers with a generative model.
+1. **Text Preprocessing & Cleaning**: Normalize text, tokenize, and remove stopwords.
+2. **Feature Extraction**: Build TF-IDF vectors, N-grams, and dense embeddings.
+3. **Model Training & Evaluation**: Train Decision Tree, SVM, Logistic Regression, Random Forest and select the best model via cross-validation and F1-score.  
+4. **LLM Integration**: Fine-tune BERT for token/sequence classification and employ prompt engineering (few‑shot, CoT) for information extraction tasks (sentiment, NER).
+5. **RAG Q&A System**: Combine retrieval of prospectus passages with a generative model to deliver accurate answers.
