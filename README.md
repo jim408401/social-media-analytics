@@ -4,7 +4,6 @@
 
 - Perform text processing and sentiment analysis on PTT Stock board posts containing the keyword "TSMC".
 - Aggregate news articles by section and train classification models (Decision Tree, Logistic Regression, SVM, Random Forest) to predict article categories.
-- Evaluate model performance using cross-validation and F1-score; select the best model for accurate news categorization.
 - Apply topic modeling (LDA) to extract and interpret hidden themes from large text corpora.
 - Train and utilize Word2Vec embeddings; obtain sentence embeddings via BERT, LLAMA 2, and Cohere using Sentence-Transformers and respective APIs.
 - Leverage pre-trained BERT models for token classification, sequence classification, and text clustering tasks.
